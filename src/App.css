@@ -81,6 +81,7 @@
 
 .acc-title {
   font-weight: 600;
+  color: #333;
 }
 
 .acc-icon {
@@ -96,4 +97,66 @@
 .acc-list {
   margin: 8px 0 0;
   padding-left: 18px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.header-top {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ddd;
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.nav a:hover {
+  background: #fafafa;
+}
+
+.contact-text {
+  margin: 0 0 10px;
+  color: #444;
+}
+
+.contact-links {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #ddd;
+  border: 1px solid #ddd;
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+.contact-links a:hover {
+  background: #fafafa;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .header-top {
+    flex-direction: column;
+  }
+  .nav {
+    padding-top: 0;
+  }
 }
