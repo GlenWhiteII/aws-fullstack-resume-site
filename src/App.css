@@ -33,3 +33,22 @@
   margin-top: 32px;
   color: #666;
 }
+.work-list {
+  display: grid;
+  gap: 16px;
+}
+
+.work-card {
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.work-card h3 {
+  margin: 0;
+}
+
+.dates {
+  color: #666;
+  font-size: 0.9rem;
+}
