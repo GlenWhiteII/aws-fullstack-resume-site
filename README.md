@@ -19,9 +19,6 @@ Designed to demonstrate cloud infrastructure, CI/CD, and frontend skills.
 - Static site hosting on AWS
 - Automatic deployment on push to main
 
-## Architecture
-
-(Include a diagram or description here)
 
 ## How to Run Locally
 
