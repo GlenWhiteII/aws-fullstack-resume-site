@@ -1,28 +1,16 @@
-# AWS Resume Site
+# React + Vite
 
-## Overview
-A full-stack resume website built with React and hosted on AWS.
-Designed to demonstrate cloud infrastructure, CI/CD, and frontend skills.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Tech Stack
-- React
-- AWS S3
-- CloudFront
-- Route 53
-- GitHub Actions (CI/CD)
+Currently, two official plugins are available:
 
-## Features
-- Responsive resume layout
-- Static site hosting on AWS
-- Automatic deployment on push to main
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Architecture
-(Include a diagram or description here)
+## React Compiler
 
-## How to Run Locally
-npm install
-npm start
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Future Improvements
-- Add backend with Lambda + API Gateway
-- Add contact form
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
