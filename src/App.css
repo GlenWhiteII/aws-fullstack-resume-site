@@ -52,3 +52,48 @@
   color: #666;
   font-size: 0.9rem;
 }
+.acc {
+  display: grid;
+  gap: 10px;
+}
+
+.acc-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.acc-header {
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  background: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.acc-header:hover {
+  background: #fafafa;
+}
+
+.acc-title {
+  font-weight: 600;
+}
+
+.acc-icon {
+  font-size: 1.25rem;
+  line-height: 1;
+  color: #333;
+}
+
+.acc-panel {
+  padding: 0 16px 14px;
+}
+
+.acc-list {
+  margin: 8px 0 0;
+  padding-left: 18px;
+}
