@@ -1,0 +1,9 @@
+// Topics for my resume accordion. 
+// Give each subject a title
+// Give each subject a one-line competency summary
+// Give each subject expandable details or a short paragraph on the subject. 
+// Include the level of expertise [Operational, Working, Conceptual]
+
+1. Electrical Units (Working) - 
+    a. 
+    b. 

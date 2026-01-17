@@ -1,42 +1,79 @@
 export const trainingTopics = [
   {
-    title: "Vacuum Fundamentals",
-    level: "Operational",
+    title: "Electrical Units",
+    level: "Working",
     items: [
-      "Absolute vs. gauge pressure",
-      "Vacuum ranges (rough, medium, high, UHV)",
-      "Torr vs atmospheric pressure",
-      "Mean free path basics",
+      "Applied electrical theory to diagnose faults, calculate safe operating loads, and reason about component behavior across industrial systems. ",
     ],
   },
   {
-    title: "Vacuum Pumps",
+    title: "Safety for Electrical Work",
     level: "Operational",
     items: [
-      "Rotary vane / dry pumps (concepts)",
-      "Roots blowers (concepts)",
-      "Turbo pumps (concepts)",
-      "Pump-down behavior and common failure modes",
+      "Practiced safe electrical work through proper isolation, verification, and PPE usage while diagnosing and servicing electrically powered equipment in the field.",
     ],
   },
   {
-    title: "Abatement & Safety",
+    title: "Ergonomics & Proper Lifting Methods",
     level: "Operational",
     items: [
-      "Hazardous gases in semiconductor environments",
-      "Ultraviolet abatement overview",
-      "Other abatement methods (thermal, scrubbers, etc.)",
-      "Basic safety mindset for sub-fab work",
+      "Applied ergonomic best practices to assess task risk, position loads effectively, and protect both personnel and equipment during manual handling tasks.",
     ],
   },
   {
-    title: "Leak Detection",
+    title: "Cybersecurity in Manufacturing",
+    level: "Conceptual",
+    items: [
+      "Understands core cybersecurity principles related to system access, data protection, and risk awareness, with an emphasis on recognizing threats and following secure operational practices.",
+    ],
+  },
+  {
+    title: "Industrial Internet of Things",
+    level: "Conceptual",
+    items: [
+      "Aware of key considerations in IoT systems including connectivity reliability, data integrity, and basic security risks when devices are network-connected.",
+    ],
+  },
+  {
+    title: "Engineering Measurement and Tolerances",
+    level: "Conceptual",
+    items: [
+      "Understands the importance of accurate measurement and tolerance limits to ensure proper fit, function, and reliability of mechanical and electrical components.",
+    ],
+  },
+  {
+    title: "Hydraulic Systems",
     level: "Operational",
     items: [
-      "Helium leak detection process (overview)",
-      "Gross vs fine leak concepts",
-      "Common leak points (fittings, seals, valves)",
-      "Documentation and verification steps",
+      "Used working knowledge of hydraulic pressure, flow paths, and system components to diagnose malfunctions and support effective maintenance and repair.",
+    ],
+  },
+  {
+    title: "Pneumatic Systems",
+    level: "Operational",
+    items: [
+      "Diagnosed pneumatic pressure issues by identifying leaks, flow restrictions, and regulator faults while maintaining system safety and performance.",
+    ],
+  },
+  {
+    title: "Hydraulic Schematics and Basic Circuit Design",
+    level: "Conceptual",
+    items: [
+      "Troubleshot several hydraulic systems without schematics, but learned general symbols for actuators, valves, pumps, etc.",
+    ],
+  },
+  {
+    title: "Pneumatic Schematics and Basic Circuit Design",
+    level: "Working",
+    items: [
+      "Troubleshot N2, CDA, and O2 pneumatic systems while utilizing schematics to find where a potential leak could be coming from when it's not obvious.",
+    ],
+  },
+  {
+    title: "Troubleshooting Strategies",
+    level: "Operational",
+    items: [
+      "Applied root-cause analysis techniques, including structured questioning and fault isolation, to resolve recurring equipment and system issues. (5 Whys, Fishbone, and Cost-Benefit Analysis)",
     ],
   },
 ];
