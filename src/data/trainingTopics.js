@@ -1,6 +1,7 @@
 export const trainingTopics = [
   {
     title: "Vacuum Fundamentals",
+    level: "Operational",
     items: [
       "Absolute vs. gauge pressure",
       "Vacuum ranges (rough, medium, high, UHV)",
@@ -10,6 +11,7 @@ export const trainingTopics = [
   },
   {
     title: "Vacuum Pumps",
+    level: "Operational",
     items: [
       "Rotary vane / dry pumps (concepts)",
       "Roots blowers (concepts)",
@@ -19,6 +21,7 @@ export const trainingTopics = [
   },
   {
     title: "Abatement & Safety",
+    level: "Operational",
     items: [
       "Hazardous gases in semiconductor environments",
       "Ultraviolet abatement overview",
@@ -28,6 +31,7 @@ export const trainingTopics = [
   },
   {
     title: "Leak Detection",
+    level: "Operational",
     items: [
       "Helium leak detection process (overview)",
       "Gross vs fine leak concepts",

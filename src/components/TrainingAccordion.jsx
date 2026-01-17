@@ -1,11 +1,14 @@
 import { useState } from "react";
 import { trainingTopics } from "../data/trainingTopics";
 
-function AccordionItem({ title, items, isOpen, onToggle }) {
+function AccordionItem({ title, level, items, isOpen, onToggle }) {
   return (
     <div className="acc-item">
       <button className="acc-header" onClick={onToggle} type="button">
-        <span className="acc-title">{title}</span>
+        <div className="acc-title-row">
+          <span className="acc-title">{title}</span>
+          {level && <span className="acc-level">{level}</span>}
+        </div>
         <span className="acc-icon" aria-hidden="true">
           {isOpen ? "−" : "+"}
         </span>
@@ -37,6 +40,7 @@ export default function TrainingAccordion() {
         <AccordionItem
           key={topic.title}
           title={topic.title}
+          level={topic.level}
           items={topic.items}
           isOpen={openIndex === index}
           onToggle={() => toggle(index)}

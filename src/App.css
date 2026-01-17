@@ -78,12 +78,28 @@
 .acc-header:hover {
   background: #fafafa;
 }
-
-.acc-title {
-  font-weight: 600;
-  color: #333;
+.acc-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
+  min-width: 0;
 }
 
+.acc-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+.acc-level {
+  margin-left: 12px;
+  font-size: 0.9rem;
+  color: #666;
+}
 .acc-icon {
   font-size: 1.25rem;
   line-height: 1;
@@ -126,6 +142,7 @@ html {
 
 .nav a:hover {
   background: #fafafa;
+  color: #000;
 }
 
 .contact-text {
@@ -149,6 +166,7 @@ html {
 
 .contact-links a:hover {
   background: #fafafa;
+  color: #000;
 }
 
 /* Mobile */

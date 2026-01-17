@@ -9,6 +9,7 @@ export default function WorkHistory() {
           <p>
             <strong>{job.role}</strong>
           </p>
+          <p>{job.location}</p>
           <p className="dates">{job.dates}</p>
 
           <ul>

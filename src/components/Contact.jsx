@@ -23,6 +23,7 @@ export default function Contact() {
         </a>
         <a href="mailto:iiglen.white@gmail.com">Email</a>
       </div>
+      <p className="phone-text">Phone: (715) 207-4624</p>
     </div>
   );
 }

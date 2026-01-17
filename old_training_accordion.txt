@@ -1,0 +1,131 @@
+// First Accordion
+
+import { useState } from "react";
+import { trainingTopics } from "../data/trainingTopics";
+
+function LevelPill({ level }) {
+  return <span className={`pill pill-${level.toLowerCase()}`}>{level}</span>;
+}
+
+function Section({ label, children }) {
+  return (
+    <div className="acc-section">
+      <div className="acc-label">{label}</div>
+      {children}
+    </div>
+  );
+}
+
+function AccordionItem({ topic, isOpen, onToggle }) {
+  return (
+    <div className={`acc-item ${isOpen ? "open" : ""}`}>
+      <button className="acc-header" onClick={onToggle} type="button">
+        <div className="acc-header-left">
+          <div className="acc-title-row">
+            <span className="acc-title">{topic.title}</span>
+            {topic.level && <LevelPill level={topic.level} />}
+          </div>
+          {topic.summary && <p className="acc-summary">{topic.summary}</p>}
+        </div>
+
+        <span className="acc-icon" aria-hidden="true">
+          {isOpen ? "−" : "+"}
+        </span>
+      </button>
+
+      {isOpen && (
+        <div className="acc-panel">
+          <Section label="What I know">
+            <ul className="acc-list">
+              {topic.know?.map((text, idx) => (
+                <li key={idx}>{text}</li>
+              ))}
+            </ul>
+          </Section>
+
+          <Section label="Proof / experience">
+            <ul className="acc-list">
+              {topic.experience?.map((text, idx) => (
+                <li key={idx}>{text}</li>
+              ))}
+            </ul>
+          </Section>
+
+          {topic.tools?.length ? (
+            <Section label="Tools / environments">
+              <div className="tag-row">
+                {topic.tools.map((t, idx) => (
+                  <span className="tag" key={idx}>
+                    {t}
+                  </span>
+                ))}
+              </div>
+            </Section>
+          ) : null}
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function TrainingAccordion() {
+  const [openIndex, setOpenIndex] = useState(0);
+
+  const toggle = (index) => {
+    setOpenIndex((current) => (current === index ? -1 : index));
+  };
+
+  return (
+    <div className="acc">
+      {trainingTopics.map((topic, index) => (
+        <AccordionItem
+          key={topic.title}
+          topic={topic}
+          isOpen={openIndex === index}
+          onToggle={() => toggle(index)}
+        />
+      ))}
+    </div>
+  );
+}
+
+// First Data Structure
+
+export const trainingTopics = [
+  {
+    title: "Vacuum Fundamentals",
+    items: [
+      "Absolute vs. gauge pressure",
+      "Vacuum ranges (rough, medium, high, UHV)",
+      "Torr vs atmospheric pressure",
+      "Mean free path basics",
+    ],
+  },
+  {
+    title: "Vacuum Pumps",
+    items: [
+      "Rotary vane / dry pumps (concepts)",
+      "Roots blowers (concepts)",
+      "Turbo pumps (concepts)",
+      "Pump-down behavior and common failure modes",
+    ],
+  },
+  {
+    title: "Abatement & Safety",
+    items: [
+      "Hazardous gases in semiconductor environments",
+      "Ultraviolet abatement overview",
+      "Other abatement methods (thermal, scrubbers, etc.)",
+      "Basic safety mindset for sub-fab work",
+    ],
+  },
+  {
+    title: "Leak Detection",
+    items: [
+      "Helium leak detection process (overview)",
+      "Gross vs fine leak concepts",
+      "Common leak points (fittings, seals, valves)",
+      "Documentation and verification steps",
+    ],
+  },
+];
