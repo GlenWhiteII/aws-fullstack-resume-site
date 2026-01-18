@@ -2,8 +2,22 @@
   max-width: 960px;
   margin: 0 auto;
   padding: 32px 16px;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Arial,
+    sans-serif;
   line-height: 1.4;
+  background-color: var(--bg);
+}
+:root {
+  --bg: #090e1a;
+  --text-primary: #e5e7eb;
+  --text-hover: #ddd;
+  --text-secondary: #818791;
+  --accent: #388df8;
 }
 
 .header {
@@ -17,7 +31,7 @@
 
 .subtitle {
   margin: 8px 0 0;
-  color: #444;
+  color: var(--text-secondary);
 }
 
 .main {
@@ -31,7 +45,7 @@
 
 .footer {
   margin-top: 32px;
-  color: #666;
+  color: var(--text-secondary);
 }
 .work-list {
   display: grid;
@@ -40,7 +54,7 @@
 
 .work-card {
   padding: 16px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--text-primary);
   border-radius: 8px;
 }
 
@@ -49,7 +63,7 @@
 }
 
 .dates {
-  color: #666;
+  color: var(--text-secondary);
   font-size: 0.9rem;
 }
 .acc {
@@ -58,16 +72,15 @@
 }
 
 .acc-item {
-  border: 1px solid #ddd;
+  border: 1px solid var(--text-primary);
   border-radius: 8px;
   overflow: hidden;
 }
-
 .acc-header {
   width: 100%;
   text-align: left;
   padding: 14px 16px;
-  background: white;
+  background: var(--text-primary);
   border: none;
   cursor: pointer;
   display: flex;
@@ -76,7 +89,10 @@
 }
 
 .acc-header:hover {
-  background: #fafafa;
+  background: var(--text-hover);
+  transition:
+    background 0.33s,
+    color 0.25s;
 }
 .acc-title-row {
   display: flex;
@@ -89,7 +105,7 @@
 .acc-title {
   font-size: 1.05rem;
   font-weight: 700;
-  color: #333;
+  color: var(--bg);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -98,12 +114,12 @@
 .acc-level {
   margin-left: 12px;
   font-size: 0.9rem;
-  color: #666;
+  color: var(--text-secondary);
 }
 .acc-icon {
   font-size: 1.25rem;
   line-height: 1;
-  color: #333;
+  color: var(--text-primary);
 }
 
 .acc-panel {
@@ -134,20 +150,23 @@ html {
 
 .nav a {
   text-decoration: none;
-  color: #ddd;
-  border: 1px solid #ddd;
+  color: var(--text-primary);
+  border: 1px solid var(--text-primary);
   padding: 8px 10px;
   border-radius: 8px;
 }
 
 .nav a:hover {
-  background: #fafafa;
-  color: #000;
+  background: var(--text-hover);
+  color: var(--bg);
+  transition:
+    background 0.33s,
+    color 0.25s;
 }
 
 .contact-text {
   margin: 0 0 10px;
-  color: #444;
+  color: var(--text-secondary);
 }
 
 .contact-links {
@@ -158,15 +177,18 @@ html {
 
 .contact-links a {
   text-decoration: none;
-  color: #ddd;
-  border: 1px solid #ddd;
+  color: var(--text-primary);
+  border: 1px solid var(--text-primary);
   padding: 10px 12px;
   border-radius: 8px;
 }
 
 .contact-links a:hover {
-  background: #fafafa;
-  color: #000;
+  background: var(--text-hover);
+  color: var(--bg);
+  transition:
+    background 0.33s,
+    color 0.25s;
 }
 
 /* Mobile */

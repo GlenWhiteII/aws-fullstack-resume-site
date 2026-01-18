@@ -140,7 +140,7 @@ export const trainingTopics = [
     ],
   },
   {
-    title: "Professinal Communication Methods",
+    title: "Professional Communication Methods",
     level: "Working",
     items: [
       "I have placed this topic in the Working category because I have formal training in professional communication and customer interaction, and I continue to develop proficiency through real-world application.",
@@ -189,53 +189,24 @@ export const trainingTopics = [
     ],
   },
   {
-    title: "",
-    level: "",
-    items: [""],
+    title: "Robotics",
+    level: "Working",
+    items: [
+      "Understands the fundamental components and principles of robotic systems, including manipulators, actuators, sensors, controllers, and basic motion concepts. Recognizes how robots are used to perform repeatable, precise tasks within automated and industrial environments, and how they integrate with control systems and safety interlocks.",
+    ],
   },
   {
-    title: "",
-    level: "",
-    items: [""],
+    title: "Arc Flash Safety",
+    level: "Operational",
+    items: [
+      "Received formal training on arc flash, arc blast, and electrical fire hazards. Understands how improper insulation, overloaded circuits, and inadequate maintenance practices can endanger maintenance personnel and nearby individuals.",
+    ],
   },
   {
-    title: "",
-    level: "",
-    items: [""],
-  },
-  {
-    title: "",
-    level: "",
-    items: [""],
-  },
-  {
-    title: "",
-    level: "",
-    items: [""],
-  },
-  {
-    title: "",
-    level: "",
-    items: [""],
-  },
-  {
-    title: "",
-    level: "",
-    items: [""],
-  },
-  {
-    title: "",
-    level: "",
-    items: [""],
-  },
-  {
-    title: "",
-    level: "",
-    items: [""],
-  },
-  {
-    title: "",
-    level: "",
-    items: [""],
+    title: "Artificial Intelligence (AI) Utilization",
+    level: "Operational",
+    items: [
+      "Uses AI tools to support research, ideation, and accelerated learning in cloud and software engineering. Applies AI-assisted workflows to explore concepts, compare approaches, generate examples, and reinforce understanding, while validating outputs against documentation, best practices, and hands-on experimentation.",
+    ],
   },
 ];

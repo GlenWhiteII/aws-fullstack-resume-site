@@ -6,7 +6,6 @@ export default function Contact() {
       </p>
 
       <div className="contact-links">
-        {/* Replace these with your real links */}
         <a
           href="https://github.com/GlenWhiteII"
           target="_blank"

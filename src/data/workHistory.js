@@ -30,7 +30,7 @@ export const workHistory = [
     dates: "2023 – 2024",
     highlights: [
       "Introduced to PLC ladder logic and industrial control systems, supporting automated manufacturing operations",
-      "Troubleshot high-powered pneumatic and high-voltage electrical systemsin production",
+      "Troubleshot high-powered pneumatic and high-voltage electrical systems in production",
       "Collaborated across maintenance and operations teams to deliver reliability-focused, production-aware solutions",
     ],
   },
@@ -57,6 +57,14 @@ export const workHistory = [
       "Performed as role of safety personnel demonstrating compliance of regulations and protocol of safety in a semiconductor fabrication",
       "Partnered with customers to resolve tool issues impacting process stability, yield, and uptime",
       "Applied structured troubleshooting methodologies aligned with reliability engineering and service excellence",
+    ],
+  },
+  {
+    company: "Certificates",
+    highlights: [
+      "OSHA-10 Certification",
+      "Tooling-U/SME Certifications (awaiting certificate)",
+      "AWS Cloud Practitioner CLF-02 (awaiting test)",
     ],
   },
 ];
