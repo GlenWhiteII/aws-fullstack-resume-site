@@ -97,4 +97,145 @@ export const trainingTopics = [
       "Obtained OSHA-10 and have done independent studies beyond to learn more about how OSHA applies to other worksites.",
     ],
   },
+  {
+    title: "PPE Concepts",
+    level: "Operational",
+    items: [
+      "Operational understanding of what proper PPE is required for the task, how to find what PPE is required per the SDS, and proper inspection pre-work to ensure safety of work.",
+    ],
+  },
+  {
+    title: "Lockout/Tagout Procedures",
+    level: "Operational",
+    items: [
+      "Performs Lockout/Tagout procedures on nearly a daily basis so it's muscle memory at this point. Firm understanding of why LOTO is performed and understands where to properly apply LOTO on machinery.",
+    ],
+  },
+  {
+    title: "Fire Safety and Prevention",
+    level: "Working",
+    items: [
+      "Can recall firefighting methods learned in the Navy, firm understanding of Fire Tetrahedron Model, and knows about what agent to apply to what class of fire.",
+    ],
+  },
+  {
+    title: "Math Fundamentals",
+    level: "Conceptual",
+    items: [
+      "Received formal education on algebraic and basic arithmetic operations, but have not covered an operational level of geometry, trigenometry, and calculus.",
+    ],
+  },
+  {
+    title: "Team Leadership",
+    level: "Operational",
+    items: [
+      "Experienced continuous advanced placement in every position where leadership roles were needs to be fulfilled. Led and trained 20+ sailors to find they are now their own leaders. Led most jobs at Edwards vacuum where I trained my partner for the day.",
+    ],
+  },
+  {
+    title: "Supply Chain Fundamentals",
+    level: "Conceptual",
+    items: [
+      "Understands the bigger picture of where supplies come from, how the company I work for operates as a service/supply, and understands how to leverage that knowledge to apply it while on site.",
+    ],
+  },
+  {
+    title: "Professinal Communication Methods",
+    level: "Working",
+    items: [
+      "I have placed this topic in the Working category because I have formal training in professional communication and customer interaction, and I continue to develop proficiency through real-world application.",
+    ],
+  },
+  {
+    title: "Troubleshooting Electrical Faults",
+    level: "Working",
+    items: [
+      "Experienced troubleshooting electrical faults whether it's using the schematic finding what pin on a controller sends the signal to component, testing the continuity to find the opening in a circuit, or testing relays, fuses, and switches for proper operation.",
+    ],
+  },
+  {
+    title: "Motors & Actuation Systems",
+    level: "Working",
+    items: [
+      "Applies knowledge of motors and actuators to operate, configure, and troubleshoot common motion systems. Interprets basic schematics, identifies components, and supports adjustments related to speed, direction, and load under supervised or procedural guidance.",
+    ],
+  },
+  {
+    title: "Solenoid Operation",
+    level: "Working",
+    items: [
+      "Uses working knowledge of solenoid operation to identify, test, and support electromechanical control functions, including voltage checks, continuity testing, and basic fault isolation.",
+    ],
+  },
+  {
+    title: "Electrical Print/Schematic Comprehension",
+    level: "Operational",
+    items: [
+      "Independently interprets and applies electrical schematics to diagnose, troubleshoot, and resolve system issues in live environments. Traces circuits, verifies signals, and correlates drawings to physical hardware to identify faults, support safe repairs, and restore reliable operation while adhering to site standards and safety requirements.",
+    ],
+  },
+  {
+    title: "PLC function and Ladder Logic",
+    level: "Conceptual",
+    items: [
+      "Understands the role of Programmable Logic Controllers (PLCs) and ladder logic in industrial automation. Recognizes how inputs, outputs, logic conditions, and interlocks are used to control equipment behavior, sequencing, and safety within automated systems.",
+    ],
+  },
+  {
+    title: "Lubricant Fundamentals",
+    level: "Working",
+    items: [
+      "Independently applies lubrication principles to maintain and restore equipment performance in live operational environments. Selects appropriate lubricants based on load, speed, temperature, and contamination risk, and performs lubrication tasks to reduce wear, prevent failures, and extend component service life while adhering to safety and maintenance standards.",
+    ],
+  },
+  {
+    title: "",
+    level: "",
+    items: [""],
+  },
+  {
+    title: "",
+    level: "",
+    items: [""],
+  },
+  {
+    title: "",
+    level: "",
+    items: [""],
+  },
+  {
+    title: "",
+    level: "",
+    items: [""],
+  },
+  {
+    title: "",
+    level: "",
+    items: [""],
+  },
+  {
+    title: "",
+    level: "",
+    items: [""],
+  },
+  {
+    title: "",
+    level: "",
+    items: [""],
+  },
+  {
+    title: "",
+    level: "",
+    items: [""],
+  },
+  {
+    title: "",
+    level: "",
+    items: [""],
+  },
+  {
+    title: "",
+    level: "",
+    items: [""],
+  },
 ];

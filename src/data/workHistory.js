@@ -35,7 +35,7 @@ export const workHistory = [
     ],
   },
   {
-    company: "Naumann Hobbs/Soutwest Battery",
+    company: "Naumann Hobbs/Southwest Battery",
     role: "Forklift Mechanic / Field Service Technician",
     location: "Phoenix, AZ",
     dates: "2024 - 2025",
