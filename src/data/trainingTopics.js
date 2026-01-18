@@ -76,4 +76,25 @@ export const trainingTopics = [
       "Applied root-cause analysis techniques, including structured questioning and fault isolation, to resolve recurring equipment and system issues. (5 Whys, Fishbone, and Cost-Benefit Analysis)",
     ],
   },
+  {
+    title: "5S (Sort, Set in Order, Sweep, Standardize, and Sustain",
+    level: "Conceptual",
+    items: [
+      "Leverages 5S as a foundational continuous improvement framework to drive workplace discipline, visual management, and sustainable operational excellence.",
+    ],
+  },
+  {
+    title: "Quality and Customer Service",
+    level: "Operational",
+    items: [
+      "Collaborates with customers to assess technical tradeoffs and execute solutions that align with operational priorities, quality standards, and production impact.",
+    ],
+  },
+  {
+    title: "OSHA Understanding",
+    level: "Working",
+    items: [
+      "Obtained OSHA-10 and have done independent studies beyond to learn more about how OSHA applies to other worksites.",
+    ],
+  },
 ];
