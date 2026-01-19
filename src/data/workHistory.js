@@ -63,8 +63,8 @@ export const workHistory = [
     company: "Certificates",
     highlights: [
       "OSHA-10 Certification",
-      "Tooling-U/SME Certifications (awaiting certificate)",
-      "AWS Cloud Practitioner CLF-02 (awaiting test)",
+      "Tooling-U/SME Certification",
+      "AWS Cloud Practitioner CLF-02",
     ],
   },
 ];
